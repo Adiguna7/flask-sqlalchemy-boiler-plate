@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "boiler-plate"
+version = "0.1.0"
+description = ""
+authors = ["AdigunaSuryo7 <suryo@nubela.co>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+SQLAlchemy = "^1.4.45"
+alembic = "^1.9.0"
+Flask = "^2.2.2"
+greenstalk = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
